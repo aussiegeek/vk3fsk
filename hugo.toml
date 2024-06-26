@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Melbourne Electronics & Radio Club'
+theme = 'vk3fsk'
+
+[markup]
+
+[markup.goldmark]
+
+[markup.goldmark.parser]
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true

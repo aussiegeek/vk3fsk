@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Membership'
+pageRef = '/membership'
+weight = 20
+
+[[menus.main]]
+name = 'Licensing'
+pageRef = '/licensing'
+weight = 30
+
+[[menus.main]]
+name = 'Contact'
+pageRef = '/contact'
+weight = 40
+
+[module]
+
+[module.hugoVersion]
+extended = false
+min = "0.116.0"

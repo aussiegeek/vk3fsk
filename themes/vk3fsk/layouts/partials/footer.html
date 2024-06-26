@@ -1,0 +1,10 @@
+<h2>Sponsors</h2>
+{{ with resources.GetMatch "images/jaycar.png" }}
+<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" />
+{{ end }} {{ with resources.GetMatch "images/altronics.png" }}
+<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" />
+{{ end }}
+
+<p>Copyright {{ now.Year }}. Melbourne Electronics and Radio Club Inc.</p>
+
+<p>Incorporated in Victoria 2007 - Registration Number A0050658B</p>

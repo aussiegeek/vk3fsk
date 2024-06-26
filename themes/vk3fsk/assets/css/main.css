@@ -1,0 +1,108 @@
+body {
+  --highlightBackground: hsl(25 100% 50%);
+  --highlightText: white;
+  --headingFont: "Roboto", sans-serif;
+  --bodyFont: "Open Sans", sans-serif;
+  --fontSizeXSmall: 12px;
+  --fontSizeSmall: 14px;
+  --fontSizeStandard: 16px;
+  --fontSizeLarge: 18px;
+  --fontSizeXLarge: 20px;
+  --fontSizeXXLarge: 24px;
+  --fontSizeXXXLarge: 30px;
+  --fontSizeXXXXLarge: 36px;
+  --bodyMargin: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: var(--fontSizeStandard);
+  font-family: var(--bodyFont);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFont);
+  font-weight: normal;
+}
+
+h1 {
+  font-size: var(--fontSizeXXXLarge);
+}
+h2 {
+  font-size: var(--fontSizeXXLarge);
+}
+h3 {
+  font-size: var(--fontSizeXLarge);
+}
+
+.fontSizeXSmall {
+  font-size: var(--fontSizeXSmall);
+}
+.fontSizeSmall {
+  font-size: var(--fontSizeSmall);
+}
+.fontSizeStandard {
+  font-size: var(--fontSizeStandard);
+}
+.fontSizeLarge {
+  font-size: var(--fontSizeLarge);
+}
+.fontSizeXLarge {
+  font-size: var(--fontSizeXLarge);
+}
+.fontSizeXXLarge {
+  font-size: var(--fontSizeXXLarge);
+}
+.fontSizeXXXLarge {
+  font-size: var(--fontSizeXXXLarge);
+}
+.fontSizeXXXXLarge {
+  font-size: var(--fontSizeXXXXLarge);
+}
+nav {
+  padding: var(--bodyMargin);
+  background-color: var(--highlightBackground);
+}
+
+nav a {
+  color: var(--highlightText);
+  padding: 5px;
+  text-decoration: none;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
+  font-size: var(--fontSizeLarge);
+  font-family: var(--headingFont);
+}
+
+nav a:hover {
+  color: var(--highlightBackground);
+  background-color: var(--highlightText);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+nav li {
+}
+
+header,
+main {
+  padding: var(--bodyMargin);
+}
+footer {
+  background-color: var(--highlightBackground);
+  color: var(--highlightText);
+  padding-left: var(--bodyMargin);
+  padding-right: var(--bodyMarging);
+  padding: var(--bodyMargin);
+  margin-top: var(--bodyMargin);
+  margin: 0;
+}
